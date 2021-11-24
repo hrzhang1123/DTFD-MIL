@@ -14,7 +14,7 @@ from Model.network import Classifier_1fc, DimReduction
 import numpy as np
 from utils import eval_metric
 
-testMask_dir = '/home/sky/SSD_4TB/dataset/Camelyon16_Original/testing/mask'
+testMask_dir = ''
 
 parser = argparse.ArgumentParser(description='abc')
 
@@ -39,8 +39,8 @@ parser.add_argument('--batch_size_v', default=1, type=int)
 parser.add_argument('--num_workers', default=4, type=int)
 parser.add_argument('--num_cls', default=2, type=int)
 
-parser.add_argument('--mDATA_dir_test0', default='/home/sky/SSD/Project/MIL_Camelyon_/train_features/dataset/ImageNet_Features/ResNet50D1024_L1Size256/mDATA_test.pkl', type=str)
-parser.add_argument('--load_model_dir', default='/home/sky/myWork/myProject/MIL_General/save_model/model.pth', type=str)
+parser.add_argument('--mDATA_dir_test0', default='', type=str)
+parser.add_argument('--load_model_dir', default='', type=str)
 
 parser.add_argument('--numGroup', default=5, type=int)
 parser.add_argument('--total_instance', default=5, type=int)
