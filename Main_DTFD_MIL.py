@@ -15,7 +15,7 @@ import numpy as np
 from utils import eval_metric
 
 parser = argparse.ArgumentParser(description='abc')
-testMask_dir = '/home/sky/SSD_4TB/dataset/Camelyon16_Original/testing/mask' ## Point to the Camelyon test set mask location
+testMask_dir = '' ## Point to the Camelyon test set mask location
 
 parser.add_argument('--name', default='abc', type=str)
 parser.add_argument('--EPOCH', default=200, type=int)
@@ -33,9 +33,9 @@ parser.add_argument('--batch_size', default=1, type=int)
 parser.add_argument('--batch_size_v', default=1, type=int)
 parser.add_argument('--num_workers', default=4, type=int)
 parser.add_argument('--num_cls', default=2, type=int)
-parser.add_argument('--mDATA0_dir_train0', default='/home/sky/SSD/Project/MIL_Camelyon_/train_features/dataset/ImageNet_Features/ResNet50D1024_L1Size256/mDATA_Train_set.pkl', type=str)  ## Train Set
-parser.add_argument('--mDATA0_dir_val0', default='/home/sky/SSD/Project/MIL_Camelyon_/train_features/dataset/ImageNet_Features/ResNet50D1024_L1Size256/mDATA_Val_set.pkl', type=str)      ## Validation Set
-parser.add_argument('--mDATA_dir_test0', default='/home/sky/SSD/Project/MIL_Camelyon_/train_features/dataset/ImageNet_Features/ResNet50D1024_L1Size256/mDATA_test.pkl', type=str)         ## Test Set
+parser.add_argument('--mDATA0_dir_train0', default='', type=str)  ## Train Set
+parser.add_argument('--mDATA0_dir_val0', default='', type=str)      ## Validation Set
+parser.add_argument('--mDATA_dir_test0', default='', type=str)         ## Test Set
 parser.add_argument('--numGroup', default=4, type=int)
 parser.add_argument('--total_instance', default=4, type=int)
 parser.add_argument('--numGroup_test', default=4, type=int)
@@ -43,7 +43,7 @@ parser.add_argument('--total_instance_test', default=4, type=int)
 parser.add_argument('--mDim', default=512, type=int)
 parser.add_argument('--grad_clipping', default=5, type=float)
 parser.add_argument('--isSaveModel', action='store_false')
-parser.add_argument('--debug_DATA_dir', default='/home/sky/myWork/myProject/WSI_WeakSupervised/temp/light_mDATA.pkl', type=str)
+parser.add_argument('--debug_DATA_dir', default='', type=str)
 parser.add_argument('--numLayer_Res', default=0, type=int)
 parser.add_argument('--temperature', default=1, type=float)
 parser.add_argument('--num_MeanInference', default=1, type=int)
