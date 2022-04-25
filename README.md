@@ -2,5 +2,6 @@ The code for our CVPR2022 paper 'DTFD-MIL: Double-Tier Feature Distillation Mult
 
 On Updating, coming soon.
 
-Extracted Feature Sets for Camelyon16: Train: https://drive.google.com/drive/folders/11XjRm-EMer4zOQBkpXvQ3jxQ5Fpo-47K?usp=sharing
-                                        Test: https://drive.google.com/drive/folders/1sqhUuwNBXFd2G9MrWTXeIBwZcz9QvEFT?usp=sharing
+Extracted patche feature for Camelyon16: 
+Train: https://drive.google.com/drive/folders/11XjRm-EMer4zOQBkpXvQ3jxQ5Fpo-47K?usp=sharing
+Test:  https://drive.google.com/drive/folders/1sqhUuwNBXFd2G9MrWTXeIBwZcz9QvEFT?usp=sharing
