@@ -10,12 +10,12 @@ import glob
 import PIL.Image as Image
 
 parser = argparse.ArgumentParser(description='abc')
-parser.add_argument('--data_dir', default='/home/sky/SSD/temp', type=str)
+parser.add_argument('--data_dir', default='', type=str) #### ####
 parser.add_argument('--device', default='cuda', type=str)
 parser.add_argument('--num_worker', default=4, type=int)
 parser.add_argument('--crop', default=224, type=int)
 parser.add_argument('--batch_size_v', default=64, type=int)
-parser.add_argument('--log_dir', default='./debug_log_2', type=str)
+parser.add_argument('--log_dir', default='', type=str) #### ####
 parser.add_argument('--img_resize', default=256, type=int)
 
 os.environ['CUDA_VISIBLE_DEVICES'] = "0"
