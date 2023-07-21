@@ -10,7 +10,6 @@ Extracted patch features for Camelyon16: <br/>
    
    Test Set: https://drive.google.com/file/d/17tppOCL-XJ6By4zQhzaWb9ZAgiHLuh5x/view?usp=sharing
 
-
 <br/>
 Extracted features for TCGA Lung cancer: <br/>
 
