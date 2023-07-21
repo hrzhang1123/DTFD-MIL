@@ -9,8 +9,9 @@ Extracted patch features for Camelyon16: <br/>
    Training Set: https://drive.google.com/file/d/1dfVaa_1WwcX1qfWOlW_NXJ_R3m9fI0lC/view?usp=sharing
    
    Test Set: https://drive.google.com/file/d/17tppOCL-XJ6By4zQhzaWb9ZAgiHLuh5x/view?usp=sharing
-.
-.
+
+
+<br/>
 Extracted features for TCGA Lung cancer: <br/>
 
 https://drive.google.com/drive/folders/1dkklN_ocAHzZFD3KJSYZ2ry6Xv4x3DbA?usp=sharing
